@@ -1,0 +1,244 @@
+# Platform Web Frontend - Next.js TypeScript
+# Archivo .gitignore completo para desarrollo y producción
+
+# ====================================
+# Dependencies / Dependencias
+# ====================================
+/node_modules
+/.pnp
+.pnp.js
+.pnp.loader.mjs
+
+# ====================================
+# Next.js
+# ====================================
+/.next/
+/out/
+next-env.d.ts
+
+# ====================================
+# Production builds / Builds de producción
+# ====================================
+/build
+/dist
+/.vercel
+
+# ====================================
+# Environment variables / Variables de entorno
+# ====================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.production
+
+# ====================================
+# Testing / Pruebas
+# ====================================
+/coverage
+/.nyc_output
+/jest-coverage/
+*.lcov
+
+# ====================================
+# IDE & Editor files / Archivos de editores
+# ====================================
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# ====================================
+# OS generated files / Archivos del sistema operativo
+# ====================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ====================================
+# Logs / Registros
+# ====================================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# ====================================
+# Temporary files / Archivos temporales
+# ====================================
+*.tmp
+*.temp
+.tmp/
+.temp/
+
+# ====================================
+# Package managers / Gestores de paquetes
+# ====================================
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# ====================================
+# TypeScript
+# ====================================
+*.tsbuildinfo
+
+# ====================================
+# ESLint
+# ====================================
+.eslintcache
+
+# ====================================
+# Storybook
+# ====================================
+.storybook/build
+
+# ====================================
+# Local development / Desarrollo local
+# ====================================
+.vscode/settings.json
+.history/
+
+# ====================================
+# Database / Base de datos
+# ====================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ====================================
+# Cache directories / Directorios de caché
+# ====================================
+.cache/
+.parcel-cache/
+
+# ====================================
+# Documentation builds / Builds de documentación
+# ====================================
+/docs/build/
+
+# ====================================
+# Misc / Misceláneos
+# ====================================
+*.log
+.turbo
+.firebase/
+
+# ====================================
+# Platform Specific / Específico de Platform
+# ====================================
+# Archivos de backup
+*.backup
+*.bak
+
+# Archivos de configuración local no versionados
+config.local.json
+settings.local.json
+
+# Documentos temporales
+/docs/temp/
+/exports/
+/uploads/temp/
+
+# ====================================
+# Security / Seguridad
+# ====================================
+# Nunca subir claves privadas o certificados
+*.pem
+*.key
+*.p12
+*.pfx
+*.cert
+*.crt
+.secrets/
+
+# ====================================
+# Development Documentation / Documentación de desarrollo
+# ====================================
+# Archivos de debug y análisis temporales
+ANALISIS_*.md
+INSTRUCCIONES_*.md
+DEBUG_*.md
+TODO_*.md
+
+# ====================================
+# Next.js específico
+# ====================================
+# Static export
+.next/static/
+.next/cache/
+
+# Sentry
+.sentryclirc
+*.sentry-*
+
+# ====================================
+# TypeScript / ESLint / Prettier
+# ====================================
+# Build info
+.tsbuildinfo
+next-env.d.ts
+
+# ====================================
+# Package manager locks (opcional, descomentar si no quieres versionarlos)
+# ====================================
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# ====================================
+# Archivos de desarrollo local
+# ====================================
+# SSL certificates locales
+localhost.pem
+localhost-key.pem
+ssl/
+
+# Mock data
+/public/mocks/
+/src/mocks/local/
+
+# ====================================
+# Herramientas de desarrollo
+# ====================================
+# Bundle analyzer
+.webpack-bundle-analyzer/
+stats.json
+
+# Lighthouse reports
+lighthouse/
+
+# ====================================
+# Playwright / Cypress
+# ====================================
+/test-results/
+/playwright-report/
+/playwright/.cache/
+/cypress/videos/
+/cypress/screenshots/
+
+# ====================================
+# Archivos específicos del proyecto Platform
+# ====================================
+# Backups de componentes
+*.component.backup
+*.tsx.backup
+*.ts.backup
+
+# Configuraciones locales de desarrollo
+.env.local.backup
+config.local.ts
