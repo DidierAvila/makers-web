@@ -1,6 +1,6 @@
-# 🚀 Platform Web Frontend
+# 🚀 Makers Web Frontend
 
-Aplicación web frontend moderna para el sistema de gestión Platform, construida con Next.js 15 y Material-UI v7. Presenta una arquitectura modular escalable que soporta múltiples portales administrativos y de negocio.
+Aplicación web frontend moderna para el sistema de gestión Makers, construida con Next.js 15 y Material-UI v7. Presenta una arquitectura modular escalable que soporta múltiples portales administrativos y de negocio.
 
 ## ⚡ Tecnologías Core
 
@@ -20,7 +20,7 @@ Aplicación web frontend moderna para el sistema de gestión Platform, construid
 
 - Node.js 18+
 - npm o yarn
-- Backend API de Platform ejecutándose
+- Backend API de Makers ejecutándose
 
 ## 🛠️ Instalación
 
@@ -28,7 +28,7 @@ Aplicación web frontend moderna para el sistema de gestión Platform, construid
 
 ```bash
 git clone [URL_DEL_REPOSITORIO]
-cd platform-web
+cd makers-web
 ```
 
 2. Instala las dependencias:
@@ -43,6 +43,24 @@ npm install
 - Credenciales de OAuth (Google, etc.)
 - Clave JWT para autenticación con el backend
 - Secretos de NextAuth
+
+## 🔑 Credenciales de Prueba
+
+Para acceder al sistema de Makers, utiliza las siguientes credenciales de prueba:
+
+### 👤 Usuario Administrador
+```
+Email: admin@test.com
+Password: admin123
+```
+
+### 👤 Usuario Regular
+```
+Email: usuario@test.com
+Password: admin123
+```
+
+**Nota**: Estas credenciales están configuradas para el entorno de desarrollo y pruebas. Asegúrate de que el backend esté ejecutándose en `http://localhost:7070` (o la URL configurada en tu `.env.local`).
 
 ## 🚀 Scripts Disponibles
 
@@ -126,7 +144,7 @@ src/
 - **Tipos de Usuario**: Clasificación dinámica con campos personalizables
 - **Dashboard Administrativo**: Panel de control centralizado
 
-### 🏢 Módulo Platform
+### 🏢 Módulo Makers
 - **Dashboard de Plataforma**: Vista específica para usuarios de plataforma
 - **Servicios Especializados**: API endpoints para funcionalidades de negocio
 
@@ -158,7 +176,7 @@ src/
 
 ## 🌐 Integración con Backend
 
-**API Proxy integrado** que conecta con el backend Platform:
+**API Proxy integrado** que conecta con el backend Makers:
 
 ```javascript
 // Configuración automática
@@ -185,7 +203,7 @@ NEXT_PUBLIC_API_URL=https://api.platform.com  // Producción
 - **Auto-guardado**: Persistencia automática de cambios
 
 #### 🔐 Control de Acceso
-- **Gestión de Roles**: Admin, Platform con permisos granulares
+- **Gestión de Roles**: Admin, Makers con permisos granulares
 - **Gestión de Permisos**: Control específico por funcionalidad
 - **Tipos de Usuario**: Sistema dinámico de clasificación
 - **Middleware Protection**: Rutas protegidas automáticamente
@@ -235,8 +253,8 @@ NEXT_PUBLIC_API_URL=https://api.platform.com  // Producción
 - **Data Export**: Funcionalidades de exportación de datos
 
 ### 🔄 En Desarrollo
-- Gestión de asesores Platform
-- Gestión de diagnósticos Platform
+- Gestión de asesores Makers
+- Gestión de diagnósticos Makers
 ## 🚀 Estado de Producción
 
 ### ✅ Build Status
@@ -318,7 +336,7 @@ npm run build && npm start
 
 #### 🎯 Domain-Driven Design
 - **Admin Domain**: Gestión administrativa completa
-- **Platform Domain**: Funcionalidades de negocio
+- **Makers Domain**: Funcionalidades de negocio
 - **Shared Domain**: Componentes y servicios reutilizables
 - **Reports Domain**: Análisis y visualizaciones
 
@@ -406,7 +424,7 @@ npm start
 - Arquitectura modular DDD implementada
 - Sistema completo de campos dinámicos
 - Módulo de reportes con visualizaciones
-- Integración completa con backend Platform
+- Integración completa con backend Makers
 
 **Estado Actual**: ✅ **PRODUCTION READY**
 - All features implemented and working

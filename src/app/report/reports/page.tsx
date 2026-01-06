@@ -7,7 +7,7 @@ import { UsersByTypeReport } from '@/modules/reports';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Reportes - Usuarios por Tipo | Platform',
+  title: 'Reportes - Usuarios por Tipo | Makers',
   description:
     'Reporte de distribución de usuarios por tipo con gráficos y estadísticas detalladas',
 };

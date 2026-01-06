@@ -394,7 +394,7 @@ function SignInContent() {
                 <PlatformIcon size={56} />
               </Box>
 
-              {/* Texto Platform */}
+              {/* Texto Makers */}
               <Typography
                 variant="h2"
                 component="h1"
@@ -408,7 +408,7 @@ function SignInContent() {
                   margin: 0,
                 }}
               >
-                Platform
+                Makers
               </Typography>
             </Box>
 

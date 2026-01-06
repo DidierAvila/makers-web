@@ -13,13 +13,13 @@ import theme from './theme';
 
 export const metadata: Metadata = {
   title: {
-    default: 'Platform - Sistema de Gestión Platform',
-    template: '%s | Platform',
+    default: 'Makers - Sistema de Gestión Makers',
+    template: '%s | Makers',
   },
   description:
-    'Sistema integral de gestión en Seguridad y Salud en el Trabajo. Protegemos el bienestar de los trabajadores colombianos con tecnología avanzada.',
+    'Sistema integral de gestión de prestamos',
   keywords: [
-    'Platform',
+    'Makers',
     'Seguridad',
     'Salud',
     'Trabajo',
@@ -28,9 +28,9 @@ export const metadata: Metadata = {
     'Prevención',
     'Riesgos',
   ],
-  authors: [{ name: 'Platform Team' }],
-  creator: 'Platform',
-  publisher: 'Platform',
+  authors: [{ name: 'Makers Team' }],
+  creator: 'Makers',
+  publisher: 'Makers',
   formatDetection: {
     email: false,
     address: false,
@@ -44,21 +44,21 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'es_CO',
     url: '/',
-    title: 'Platform - Sistema de Gestión Platform',
+    title: 'Makers - Sistema de Gestión Makers',
     description: 'Sistema integral de gestión en Seguridad y Salud en el Trabajo',
-    siteName: 'Platform',
+    siteName: 'Makers',
     images: [
       {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Platform - Sistema de Gestión Platform',
+        alt: 'Makers - Sistema de Gestión Makers',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Platform - Sistema de Gestión Platform',
+    title: 'Makers - Sistema de Gestión Makers',
     description: 'Sistema integral de gestión en Seguridad y Salud en el Trabajo',
     images: ['/og-image.jpg'],
   },
